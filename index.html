@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>기록장✏️</title>
+</head>
+<body>
+    <form class="hidden" id="login_form">
+    <input required 
+    maxlength="15" 
+    type="text" 
+    placeholder="이름을 입력해주세요"/>
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+    <h2 id="clock">00:00:00</h2>
+    <form id="todo_form">
+        <input type="text" placeholder="일정을 기록해주세요">
+    </form>
+    <ul id="todo_list">
+    </ul>
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+
+    <div id="logout">
+        <input type="button" value="Back" onclick>
+    </div>
+
+    <script src="js/moment.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/logout.js"></script>
+</body>
+</html>

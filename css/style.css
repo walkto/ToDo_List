@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    position: relative;
+    margin: 0;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+input {
+    display:flex;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    text-align: center;
+}
+
+#clock {
+    position: absolute;
+    top: 50px;
+    font-size: 110px;
+    }
+
+#quote {
+    position: absolute;
+    bottom: 20px;
+    font-size: 15px;
+}
+
+#weather {
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    text-align: center;
+    position: absolute;
+    top: 6px;
+    right: 10px;
+}
+
+#logout {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    }
+
+#login_form {
+    position: absolute;
+    top: 50px;
+    }
+
+img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    z-index: -2;
+}
+
+#todo_form input {
+    font-size: 40px;
+    padding: 6px;
+}
+
+#todo_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3px;
+    padding: 5px;
+}
+
+#todo_list li {
+    align-items: center;
+    margin: 3px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#todo_list button {
+    border: none;
+    cursor: pointer;
+    margin: 8px;
+}
+
+#greeting {
+    position: absolute;
+    top: 16px;
+    text-align: left;
+    font-size: 25px;
+}
