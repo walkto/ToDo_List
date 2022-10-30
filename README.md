@@ -1,4 +1,4 @@
-# HTML, CSS, Javacscript를 활용한 간단한 To Do List 만들기
+# HTML, CSS, Javacscript를 활용한 간단한 웹 To Do List 만들기
 
 이름 : 기록장
 
