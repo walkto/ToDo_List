@@ -1,7 +1,9 @@
 # HTML, CSS, Javacscript를 활용한 간단한 To Do List 만들기
 
 이름 : 기록장
+
 제작 기간 : 2022.10.11 ~ 2022.10.16
+
 사용한 프로그래밍 언어 : HTML, CSS, Javacscript
 
 ## 프로젝트에서 활용한 기능들
@@ -57,4 +59,7 @@ todo list의 핵심적인 요소인 입력된 값을 저장하고 표현하며 �
 
 실시간 날씨와 위치 정보를 부여합니다. Open Weather map의 API를 활용하였습니다.
 
-#### 완성된 이미지
+# 완성된 이미지
+
+![todo](https://user-images.githubusercontent.com/114220127/198906773-528cf26e-5b8f-48f6-8bef-a393c34cdf13.png)
+
